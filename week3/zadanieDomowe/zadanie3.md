@@ -113,14 +113,3 @@ Unable to locate credentials. You can configure credentials by running "aws conf
 [ec2-user@ip-172-31-44-168 ~]$ aws s3 cp olo.txt  s3://hw-week3/
 upload failed: ./olo.txt to s3://hw-week3/olo.txt Unable to locate credentials
 ```
-
-
-
-
-# 1
-## 2
-### 3
-#### 4
-##### 5
-
-
