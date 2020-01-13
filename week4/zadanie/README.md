@@ -1,6 +1,5 @@
-## Utworzenie VPC i Subnetow
-<details><summary>Rozwin</summary>
-<p>
+## VPC i Subnetu
+<details><summary><i>Utworzenie</i></summary>
 ### Utworzenie VPC HomeWork04 10.1.0.0/16
 ```
 aws2 ec2 create-vpc --cidr-block 10.1.0.0/16
@@ -68,6 +67,3 @@ aws2 ec2 create-tags --resources subnet-08689551c0b507387 \
 ```
 public02="subnet-08689551c0b507387"
 #### hint: aws ec2 create-vpc --cidr-block 10.0.0.0/16 --output text | awk '{print $NF}' | xargs aws ec2 create-tags --tags Key=Name,Value=MyVPC --resources
-
-</p>
-</details>
