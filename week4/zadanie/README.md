@@ -36,6 +36,7 @@ aws2 ec2 create-tags --resources subnet-0164f2b1ae47d4b2e \
     --tags Key=Name,Value=Public02
 
 ```
+
 public02="subnet-0164f2b1ae47d4b2e"
 
 ##################
