@@ -1,9 +1,9 @@
 ## ENV
-vpc="vpc-08cf2e289b2c8ec93" 
-public01="subnet-0a8c311c1e696fe9d"
-public02="subnet-0164f2b1ae47d4b2e"
-private01="subnet-0081f258d37261cac"
-private02="subnet-08689551c0b507387"
+vpc="vpc-08cf2e289b2c8ec93"  
+public01="subnet-0a8c311c1e696fe9d"  
+public02="subnet-0164f2b1ae47d4b2e"  
+private01="subnet-0081f258d37261cac"  
+private02="subnet-08689551c0b507387"  
 
 ## 1. VPC i Subnety
 <details><summary><b><i>a) Utworzenie VPC</i></b></summary>
