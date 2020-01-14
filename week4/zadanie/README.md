@@ -1,5 +1,12 @@
-## VPC i Subnetu
-<details><summary><b><i>Utworzenie</i></b></summary>
+## ENV
+vpc="vpc-08cf2e289b2c8ec93" 
+public01="subnet-0a8c311c1e696fe9d"
+public02="subnet-0164f2b1ae47d4b2e"
+private01="subnet-0081f258d37261cac"
+private02="subnet-08689551c0b507387"
+
+## 1. VPC i Subnetu
+<details><summary><b><i>a) Utworzenie VPC</i></b></summary>
 
 ### Utworzenie VPC HomeWork04 10.1.0.0/16
 ```
@@ -11,6 +18,7 @@ aws2 ec2 create-tags --resources vpc-08cf2e289b2c8ec93 --tags Key=Name,Value=Hom
 hint: aws2 ec2 describe-vpcs
 vpc="vpc-08cf2e289b2c8ec93"
 
+<details><summary><b><i>b) Utworzenie Subnetow</i></b></summary>
 ### Utworzenie subnet Public01 10.1.1.0/24
 
 ```
@@ -67,5 +75,5 @@ aws2 ec2 create-tags --resources subnet-08689551c0b507387 \
     --tags Key=Name,Value=Private02
 
 ```
-public02="subnet-08689551c0b507387"
+private02="subnet-08689551c0b507387"
 #### hint: aws ec2 create-vpc --cidr-block 10.0.0.0/16 --output text | awk '{print $NF}' | xargs aws ec2 create-tags --tags Key=Name,Value=MyVPC --resources
